@@ -3,6 +3,17 @@
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
-.class.big {
+.big {
     font-size: 24px;
+}
+
+#number2 {
+    color: #0000fa;
+    font-size: 36px;
+}
+
+#number4 {
+    background-color: #8fbc8f;
+    font-size: 24px;
+    font-weight: bold;
 }
