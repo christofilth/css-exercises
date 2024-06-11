@@ -5,11 +5,35 @@ body {
 img {
   width: 100px;
   height: 100px;
+  
+}
+
+.text {
+  text-align: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.fruit {
+  width: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 52px;
+  align-items: center;
+  gap: 8px;
+  
 }
 
 /* do not edit this footer */
