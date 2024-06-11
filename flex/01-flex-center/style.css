@@ -3,6 +3,12 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  /* Got the correct answer, but not the way expected. 
+  Solution suggested, as well as adding display: flex
+  would be:
+  align-items: center;
+  justify-content: center; */
 }
 
 .box {
@@ -12,4 +18,5 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  margin: auto; /* this not needed in suggested solution */
 }
